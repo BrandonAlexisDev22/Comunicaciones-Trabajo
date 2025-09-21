@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicaciones - Trabajo Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Blog de Comunicaciones</div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#objetivo" class="nav-link">Objetivo</a></li>
+                    <li class="nav-item"><a href="#formas" class="nav-link">Reto</a></li>
+                    <li class="nav-item"><a href="#funciones" class="nav-link">Conocenos</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="evidenciasBtn">Evidencias ▼</a>
+                        <div class="dropdown-content" id="evidenciasDropdown">
+                            <a href="#" class="dropdown-item" onclick="showEvidence('maria')">Mateo Bejarano</a>
+                            <a href="#" class="dropdown-item" onclick="showEvidence('juan')">Brandon Quintero</a>
+                            <a href="#" class="dropdown-item" onclick="showEvidence('ana')">Anderson Cano</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h1>Comunicacion</h1>
+                <p>La comunicacion es todo aquello que podemos representar con solo existir, esta habilidad la tenemos
+                    desde que nacemos (se ve reflejada al llorar) hasta que morimos (reflejada en nuestra ultima accion
+                    "el suspiro de la muerte)
+                    todas nuestras acciones, expresiones corporales, sonidos son parte de lo que comunicamos. la
+                    comunicacion es una parte esencial de la vida de todo ser vivo, por eso podria ser correcto decir
+                    que la comunicacion hace parte o es nuestra <strong>esencia</strong>. </p>
+            </div>
+        </section>
+
+        <section id="objetivo" class="section fade-in">
+            <h2>Objetivo de la Comunicación</h2>
+            <p>La comunicación tiene propósitos específicos que van más allá del simple intercambio de información.
+                Comprender estos objetivos nos ayuda a comunicarnos de manera más efectiva y significativa.</p>
+
+            <h3>Objetivos Principales</h3>
+            <ul>
+                <li><strong>Informar:</strong> Transmitir datos, hechos o conocimientos de manera clara y precisa</li>
+                <li><strong>Persuadir:</strong> Influir en las actitudes, creencias o comportamientos del receptor</li>
+                <li><strong>Entretener:</strong> Proporcionar entretenimiento, diversión o placer</li>
+                <li><strong>Educar:</strong> Facilitar el aprendizaje y el desarrollo de habilidades</li>
+            </ul>
+
+            <h3>Objetivos Secundarios</h3>
+            <ul>
+                <li><strong>Establecer relaciones:</strong> Crear vínculos sociales y emocionales</li>
+                <li><strong>Coordinar acciones:</strong> Sincronizar actividades y esfuerzos</li>
+                <li><strong>Expresar emociones:</strong> Manifestar sentimientos y estados internos</li>
+                <li><strong>Resolver conflictos:</strong> Encontrar soluciones a desacuerdos</li>
+            </ul>
+
+            <p>El éxito de la comunicación se mide por el grado en que se alcanzan estos objetivos, considerando tanto
+                la intención del emisor como la comprensión del receptor.</p>
+        </section>
+
+        <div class="container">
+            <section id="pilares" class="section fade-in">
+                <h2>Los 4 Pilares de la Comunicación</h2>
+                <p>Los cuatro pilares fundamentales que sostienen toda comunicación efectiva son elementos esenciales
+                    que debemos comprender y aplicar para lograr una interacción exitosa.</p>
+
+                <h3>1. Emisor</h3>
+                <p>Es quien transmite el mensaje. Debe tener claridad en sus ideas, conocer a su audiencia y seleccionar
+                    el canal apropiado para comunicarse. Su credibilidad y competencia comunicativa influyen
+                    directamente en la efectividad del mensaje.</p>
+
+                <h3>2. Mensaje</h3>
+                <p>Es el contenido de la comunicación, la información que se desea transmitir. Debe ser claro,
+                    coherente, relevante y adaptado al receptor. La estructura y organización del mensaje son cruciales
+                    para su comprensión.</p>
+
+                <h3>3. Canal</h3>
+                <p>Es el medio por el cual se transmite el mensaje. Puede ser verbal (oral o escrito), no verbal
+                    (gestos, expresiones) o a través de medios tecnológicos. La elección del canal debe considerar el
+                    contexto y las características del receptor.</p>
+
+                <h3>4. Receptor</h3>
+                <p>Es quien recibe e interpreta el mensaje. Su nivel de atención, conocimientos previos, experiencias y
+                    actitudes influyen en la decodificación del mensaje. La retroalimentación del receptor es
+                    fundamental para completar el proceso comunicativo.</p>
+            </section>
+
+            <section id="tipos" class="section fade-in">
+                <h2>Tipos de Comunicación</h2>
+                <p>La comunicación se puede clasificar de diversas maneras según diferentes criterios, cada una con
+                    características y aplicaciones específicas.</p>
+
+                <h3>Según el Número de Participantes</h3>
+                <ul>
+                    <li><strong>Intrapersonal:</strong> Comunicación interna, diálogo con uno mismo</li>
+                    <li><strong>Interpersonal:</strong> Entre dos o más personas de manera directa</li>
+                    <li><strong>Grupal:</strong> En grupos pequeños con interacción cara a cara</li>
+                    <li><strong>Masiva:</strong> Dirigida a grandes audiencias a través de medios masivos</li>
+                </ul>
+
+                <h3>Según el Canal Utilizado</h3>
+                <ul>
+                    <li><strong>Verbal:</strong> Utiliza palabras habladas o escritas</li>
+                    <li><strong>No verbal:</strong> Gestos, expresiones, posturas, tono de voz</li>
+                    <li><strong>Paraverbal:</strong> Elementos que acompañan al habla como el ritmo y la entonación</li>
+                </ul>
+
+                <h3>Según la Dirección</h3>
+                <ul>
+                    <li><strong>Unidireccional:</strong> Flujo de información en una sola dirección</li>
+                    <li><strong>Bidireccional:</strong> Intercambio mutuo de información</li>
+                    <li><strong>Multidireccional:</strong> Múltiples flujos de comunicación simultáneos</li>
+                </ul>
+            </section>
+
+
+            <section id="formas" class="section fade-in">
+                <h2>Reto</h2>
+                <p>A lo largo de la formacion tuvimos la oportunidad de crecer en cuanto a la comunicacion se refiere,
+                    evidencia de esto es el cumplimiento del reto propuesto a inicio del trimestre.</p>
+
+                <h3>Mateo Bejarano</h3>
+                <p> Generalmente en mi hogar somos muy respetuosos y no solemos tener muchas discusiones entre nosotros.
+                    Sin embargo tampoco manteniamos conversaciones muy largas o profundas, esto se me hacia incomodo,
+                    hasta que empezamos a tocar el tema de la comunicacion asertiva, desde ese momento entendi que
+                    respetar los espacios al hablar, y mantener centrar mi atencion en la comunicacion con las partes
+                    implicadas era algo de lo que me faltaba, asi que empece a practicar este tipo de cosas al hablar
+                    con mi mamá y note una mejoria en la charla, en esa ocasion duro 10 minutos mas de lo habitual,
+                    eventualmente mi hermana inconsientemente empezo a actuar de la misma manera y esto logro que las
+                    conversaciones en mi hogar fueran mucho más largas y conscientes</p>
+
+                <h3>Brandon Quintero</h3>
+                <p>Generalmente, me consideraba una persona reservada, y al convivir con otras personas solía mantenerme
+                    en mi espacio sin profundizar mucho en sus formas de ser. Sin embargo, cuando tuve la oportunidad de
+                    compartir más tiempo en grupo, me di cuenta de lo diferente que era cada personalidad y lo retador
+                    que podía resultar adaptarme a ellas. Al principio me costaba entender ciertos comportamientos o
+                    maneras de expresarse, pero poco a poco fui observando que cada uno tenía una manera única de ver
+                    las cosas y que en lugar de generar distancia, eso podía enriquecer la convivencia.
+
+                    Fue entonces cuando comencé a escuchar con mayor atención y a poner en práctica la paciencia,
+                    reconociendo que todos tenemos ritmos y necesidades distintas. Me sorprendió darme cuenta de que, al
+                    mostrar interés genuino en la personalidad de los demás, también ellos empezaban a abrirse conmigo.
+                    Esto no solo fortaleció las charlas, que se volvieron más auténticas y largas, sino que me ayudó a
+                    ser más consciente de la importancia de valorar las diferencias como un puente para mejorar la
+                    comunicación y la convivencia.</p>
+
+                <h3>Anderson Cano</h3>
+                <p>Al convivir con personas nuevas me di cuenta de que no era solo compartir un espacio, sino también
+                    enfrentar el reto de observar y comprender personalidades muy distintas a la mía. Al principio me
+                    costaba aceptar ciertas actitudes que no coincidían con lo que estaba acostumbrado, pero poco a poco
+                    comprendí que detrás de cada forma de ser había una historia y una manera particular de ver la vida.
+
+                    Lo interesante fue notar cómo esas diferencias me invitaban a reflexionar sobre mi propia manera de
+                    actuar. Empecé a practicar la tolerancia y a reconocer que no todos se expresan con las mismas
+                    palabras o el mismo ritmo, y que eso no significa que valgan menos sus ideas. Con el tiempo, entendí
+                    que convivir no es adaptarse por completo al otro ni esperar que los demás se adapten a mí, sino
+                    encontrar un punto medio donde la comunicación sea más consciente y respetuosa.
+
+                    Al final, esta experiencia me mostró que la diversidad de personalidades no es un obstáculo, sino
+                    una oportunidad para crecer, aprender y fortalecer los lazos que se construyen en la convivencia</p>
+            </section>
+
+            <section id="funciones" class="section fade-in">
+                <h2>Presentaciones</h2>
+                <p id="parrafo">Con el proposito de que conozcas un poco de nosotros, hemos creado esta seccion.</p>
+
+                <div class="propietario-container">
+                    <img src="/src/Mateo.jpeg" alt="foto_representacion_mateo">
+                    <h3>Mateo Bejarano</h3>
+                    <p>Soy Mateo Bejarano Mejia, tengo 17 años, cumplo años el 2 de diciembre, tengo 1 gato llamado
+                        capitan, vivo con mi hermana y mi mamá, me gustan los temas conspiranoicos y en general todo lo
+                        que sea debatible y no se sepa con ciencia exacta, me encanta la programacion, actualmente mi
+                        meta es viajar a italia, especificamente a la ciudad de roma con mi familia, actualmente me
+                        gustaria aprender a tocar piano y empezar el habito de leer libros.</p>
+                </div>
+
+                <div class="propietario-container">
+                    <img src="/src/brandon.png" alt="foto_representacion_brandon">
+                    <h3>Brandon Quintero</h3>
+                    <p>Hola mi nombre es Brandon Alexis Quintero Alvarez, tengo 19 años de edad, mi cumpleaños es el 22
+                        de Marzo, me considero una persona bastante alegre, actualmente vivo con mi mama,mi abuela, mi
+                        tio y una mascota llamada Sally, ya hablando de mis gustos, me encanta mucho la musica
+                        electronica mi cancion favorita se llama <strong>Somewhere Inside Of Me</strong> y me encanta
+                        socializar con las demas personas y conocer a cada persona, tambien me gusta mucho el tema de la
+                        espiritualidad y la imagen del Buda. y eso es lo poco que puedo decir de mi.</p>
+                </div>
+
+                <div class="propietario-container">
+                    <img src="/src/anderson.jpg" alt="foto_representacion_anderson">
+                    <h3>Anderson Cano</h3>
+                    <p>Hola mi nombre es Anderson Cano, tengo 19 años de edad el 21 de Marzo, me encanta mucho la musica
+                        clasica asi como compartir con amigos y reirnos, me encanta mucho el tema del ganado y las
+                        matematicas, mi sueño es poder ser ganadero y poder vivir de ello, soy una persona muy sociable
+                        y que respeta a los demas.</p>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <div id="evidenceModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="/script.js"> </script>
+</body>
+
+</html>
