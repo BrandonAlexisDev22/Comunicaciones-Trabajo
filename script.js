@@ -108,9 +108,10 @@ const evidenceData = {
             },
             {
                 title: "Investigacion: comunicacion no verbal",
-                description: "investigacion sobre la kinesica y analisis de la pelicula el color del paraiso teniendo en cuenta la kinesica.",
+                description: "investigacion sobre el paralenguaje y analisis de la pelicula el color del paraiso teniendo en cuenta la kinesica.",
                 type: "Video",
-                date: "11/09/2025"
+                date: "11/09/2025",
+                file: "src/assets/Anderson/Paralenguaje.docx"
             }
         ]
     }
